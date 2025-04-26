@@ -1,0 +1,50 @@
+╔════════════════════════════════════════════════════╦═══════════╦══════╦═══════════════╗
+║                  AlgoGym TODO List                 ║           ║      ║               ║
+╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
+║ Task                                               ║ Status    ║ Test ║ Documentation ║
+╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
+║ **Project Setup**                                  ║           ║      ║               ║
+║   - Initialize project structure                   ║ Done      ║ N/A  ║ Done          ║
+║   - Setup dependency management                    ║ Done      ║ N/A  ║ Done          ║
+║   - Setup version control (e.g., Git)              ║ Done      ║ N/A  ║ Done          ║
+╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
+║ **Core Functionality**                             ║           ║      ║               ║
+║   - Define base `Function` interface/abstract class║ Pending   ║ Unit ║ Docstrings    ║
+║   - Implement example target functions             ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Implement data loading/sampling mechanism      ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Define base Algorithm interface/abstract class ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Implement Reinforcement Learning algorithms    ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Implement Evolutionary algorithms              ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Implement Monte Carlo algorithms               ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Implement other approximation algorithms       ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Define evaluation metrics module               ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Implement core training/approximation loop     ║ Pending   ║ Int. ║ Docstrings    ║
+╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
+║ **Visualization**                                  ║           ║      ║               ║
+║   - Define visualization interface/base class      ║ Pending   ║ N/A  ║ Docstrings    ║
+║   - Implement plotting for function approximation  ║ Pending   ║ Man. ║ Docstrings    ║
+║   - Implement plotting for algorithm progress      ║ Pending   ║ Man. ║ Docstrings    ║
+║   - Implement interactive dashboard (optional)     ║ Pending   ║ Man. ║ Docstrings    ║
+╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
+║ **Configuration & CLI**                            ║           ║      ║               ║
+║   - Implement configuration loading (e.g., YAML)   ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Implement Command Line Interface (CLI)         ║ Pending   ║ Int. ║ Docstrings    ║
+╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
+║ **Testing & Documentation**                        ║           ║      ║               ║
+║   - Setup testing framework (e.g., pytest)         ║ Pending   ║ N/A  ║ N/A           ║
+║   - Write unit tests for core components           ║ Pending   ║ N/A  ║ N/A           ║
+║   - Write integration tests                        ║ Pending   ║ N/A  ║ N/A           ║
+║   - Generate project documentation (e.g., Sphinx)  ║ Pending   ║ N/A  ║ N/A           ║
+║   - Write README.md                                ║ Pending   ║ N/A  ║ N/A           ║
+╚════════════════════════════════════════════════════╩═══════════╩══════╩═══════════════╝
+
+**Legend:**
+- Status: Pending, In Progress, Done
+- Test: N/A, Unit, Int. (Integration), Man. (Manual)
+- Documentation: Pending, Docstrings, Readme, Sphinx
+
+**Guiding Principles:**
+- **Modularity:** Code components should be distinct and reusable.
+- **Structure:** All source code resides within the `src` directory, organized logically.
+- **Testing:** Every functional component must have corresponding unit tests.
+- **Simplicity:** Code should be elegant, easy to read, and maintainable. 

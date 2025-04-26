@@ -1,0 +1,11 @@
+# Core Libraries
+numpy
+pandas
+scipy
+matplotlib
+
+# Configuration
+pyyaml
+
+# Testing
+pytest 
