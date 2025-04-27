@@ -2,7 +2,7 @@
 
 ## Introduction
 
-AlgoGym is a work in progress Python framework designed for experimenting with and visualizing various algorithms as they learn to approximate or optimize mathematical functions. It provides a structured environment based on `BaseFunction` and `BaseAlgorithm` classes, allowing for easy implementation and comparison of different approaches.
+AlgoGym is a **work in progress** Python framework designed for experimenting with and visualizing various algorithms as they learn to approximate or optimize mathematical functions. It provides a structured environment based on `BaseFunction` and `BaseAlgorithm` classes, allowing for easy implementation and comparison of different approaches.
 
 This project demonstrates the learning process of several common algorithms on benchmark functions like Sine, Polynomial, and Rosenbrock, generating animated GIFs and summary data for analysis.
 
