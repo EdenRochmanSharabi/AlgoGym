@@ -77,15 +77,15 @@ This section details the algorithms implemented in AlgoGym and analyzes their be
 *   **Example Visualizations:**
 
     *   **Sine Function:**
-        `[Insert GIF for GA on SineFunction here - e.g., examples/results/Sine/GeneticAlgorithm/gifs_and_images/sine_geneticalgorithm_learning.gif]`
+        ![GA on Sine](examples/results/Sine/GeneticAlgorithm/gifs_and_images/sine_geneticalgorithm_learning.gif)
         *Comment:* Observe how the red dashed line (approximation) gradually conforms to the blue line (true function) over 300 epochs. The MSE metric generally decreases, though potentially plateauing towards the end. The increased `hidden_layer_size` helps capture the curves better than initial runs.
 
     *   **Polynomial Function:**
-        `[Insert GIF for GA on PolynomialFunction here - e.g., examples/results/Polynomial/GeneticAlgorithm/gifs_and_images/polynomial_geneticalgorithm_learning.gif]`
+        ![GA on Polynomial](examples/results/Polynomial/GeneticAlgorithm/gifs_and_images/polynomial_geneticalgorithm_learning.gif)
         *Comment:* Similar convergence pattern. The final fit is quite good, demonstrating the effectiveness of the increased network complexity for this function.
 
     *   **Rosenbrock Function (2D):**
-        `[Insert GIF for GA on RosenbrockFunction here - e.g., examples/results/Rosenbrock/GeneticAlgorithm/gifs_and_images/rosenbrock_geneticalgorithm_learning.gif]`
+        ![GA on Rosenbrock](examples/results/Rosenbrock/GeneticAlgorithm/gifs_and_images/rosenbrock_geneticalgorithm_learning.gif)
         *Comment:* Visualization shows the contour plot of the approximation (red lines) evolving over the true function's filled contour plot. Convergence is much slower due to the higher dimensionality and complexity of the Rosenbrock function, but the MSE metric shows consistent improvement over 300 epochs.
 
 ---
@@ -108,11 +108,11 @@ This section details the algorithms implemented in AlgoGym and analyzes their be
 *   **Example Visualizations:**
 
     *   **Sine Function:**
-        `[Insert GIF for QL on SineFunction here - e.g., examples/results/Sine/QLearning/gifs_and_images/sine_qlearning_learning.gif]`
+        ![QL on Sine](examples/results/Sine/QLearning/gifs_and_images/sine_qlearning_learning.gif)
         *Comment:* The approximation (red dashed line) will appear step-like due to the state and action discretization. With the `alpha=0.5` setting, observe how the MSE metric decreases but might show some variability, indicating the aggressive learning rate potentially causing oscillations in the Q-table values.
 
     *   **Polynomial Function:**
-        `[Insert GIF for QL on PolynomialFunction here - e.g., examples/results/Polynomial/QLearning/gifs_and_images/polynomial_qlearning_learning.gif]`
+        ![QL on Polynomial](examples/results/Polynomial/QLearning/gifs_and_images/polynomial_qlearning_learning.gif)
         *Comment:* Similar step-like approximation. The learning progress (MSE reduction) is evident but may not be as smooth as the GA due to the interplay of discretization and the learning parameters.
 
 ---
@@ -134,7 +134,7 @@ This section details the algorithms implemented in AlgoGym and analyzes their be
 
     *   **Sine/Polynomial Function:** *Currently fails due to error.*
     *   **Rosenbrock Function (2D):**
-        `[Insert GIF for KNN on RosenbrockFunction here - e.g., examples/results/Rosenbrock/KNN/gifs_and_images/rosenbrock_knn_learning.gif]`
+        ![KNN on Rosenbrock](examples/results/Rosenbrock/KNN/gifs_and_images/rosenbrock_knn_learning.gif)
         *Comment:* The contour plot visualization is generated. While interpreting the approximation contours for KNN can be tricky, the metrics plot clearly shows the MSE decreasing over epochs as more data points are added, demonstrating learning.
 
 ---
@@ -156,15 +156,15 @@ This section details the algorithms implemented in AlgoGym and analyzes their be
 *   **Example Visualizations:**
 
     *   **Sine Function:**
-        `[Insert GIF for PSO on SineFunction here - e.g., examples/results/Sine/PSO/gifs_and_images/sine_pso_learning.gif]`
+        ![PSO on Sine](examples/results/Sine/PSO/gifs_and_images/sine_pso_learning.gif)
         *Comment:* Note the "Best Fitness" metric converges almost instantly to the minimum value (-1.0). **Ignore the red dashed line**, it is a plotting artifact (likely zeros) due to `predict()` incompatibility, not a function approximation.
 
     *   **Polynomial Function:**
-        `[Insert GIF for PSO on PolynomialFunction here - e.g., examples/results/Polynomial/PSO/gifs_and_images/polynomial_pso_learning.gif]`
+        ![PSO on Polynomial](examples/results/Polynomial/PSO/gifs_and_images/polynomial_pso_learning.gif)
         *Comment:* Similar to Sine, "Best Fitness" quickly finds the minimum. **Ignore the red dashed approximation line.**
 
     *   **Rosenbrock Function (2D):**
-        `[Insert GIF for PSO on RosenbrockFunction here - e.g., examples/results/Rosenbrock/PSO/gifs_and_images/rosenbrock_pso_learning.gif]`
+        ![PSO on Rosenbrock](examples/results/Rosenbrock/PSO/gifs_and_images/rosenbrock_pso_learning.gif)
         *Comment:* "Best Fitness" shows rapid convergence towards the minimum value (0.0). The 2D contour plot may not be meaningful for the same reasons as the 1D plots. Focus on the metric graph.
 
 ---
