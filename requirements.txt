@@ -8,4 +8,9 @@ matplotlib
 pyyaml
 
 # Testing
-pytest 
+pytest
+
+# Visualization (Optional)
+ipywidgets
+plotly>=5.8.0
+imageio>=2.19.0  # For GIF animations 

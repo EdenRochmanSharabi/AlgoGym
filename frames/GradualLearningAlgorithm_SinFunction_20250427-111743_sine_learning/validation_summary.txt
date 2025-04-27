@@ -1,0 +1,42 @@
+Training Data Summary
+====================
+
+Function: SinFunction
+Input Dimension: 1
+Output Dimension: 1
+
+Epochs: 25
+Starting MSE: 2.085953
+Final MSE: 0.003727
+MSE Improvement: 2.082226
+
+Validation Results
+-----------------
+
+Detailed MSE Progression
+----------------------
+Epoch 0: MSE=2.085953, Max Error=2.865340
+Epoch 1: MSE=2.251602, Max Error=2.964563
+Epoch 2: MSE=2.685401, Max Error=2.883370
+Epoch 3: MSE=3.334119, Max Error=3.284974
+Epoch 4: MSE=3.723405, Max Error=3.324493
+Epoch 5: MSE=3.656525, Max Error=3.458389
+Epoch 6: MSE=3.247795, Max Error=3.458310
+Epoch 7: MSE=2.776882, Max Error=3.339621
+Epoch 8: MSE=2.256882, Max Error=3.082892
+Epoch 9: MSE=1.762728, Max Error=2.755842
+Epoch 10: MSE=1.479742, Max Error=2.528323
+Epoch 11: MSE=1.080572, Max Error=2.155208
+Epoch 12: MSE=0.749849, Max Error=1.761871
+Epoch 13: MSE=0.592764, Max Error=1.560101
+Epoch 14: MSE=0.373561, Max Error=1.298722
+Epoch 15: MSE=0.291087, Max Error=1.172158
+Epoch 16: MSE=0.192937, Max Error=0.979828
+Epoch 17: MSE=0.138252, Max Error=0.845459
+Epoch 18: MSE=0.074736, Max Error=0.632702
+Epoch 19: MSE=0.058896, Max Error=0.563370
+Epoch 20: MSE=0.048713, Max Error=0.512326
+Epoch 21: MSE=0.036965, Max Error=0.446616
+Epoch 22: MSE=0.027769, Max Error=0.389050
+Epoch 23: MSE=0.020379, Max Error=0.332424
+Epoch 24: MSE=0.003727, Max Error=0.133454

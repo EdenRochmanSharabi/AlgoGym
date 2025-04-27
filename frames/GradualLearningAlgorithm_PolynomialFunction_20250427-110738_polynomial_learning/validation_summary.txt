@@ -1,0 +1,61 @@
+Training Data Summary
+====================
+
+Function: PolynomialFunction
+Input Dimension: 1
+Output Dimension: 1
+
+Epochs: 40
+Starting MSE: 1.615898
+Final MSE: 0.000197
+MSE Improvement: 1.615701
+
+Validation Results
+-----------------
+significant_changes: True
+decreasing_mse: True
+acceptable_final_mse: True
+even_spacing: True
+
+Detailed MSE Progression
+----------------------
+Epoch 0: MSE=1.615898, Max Error=3.045278
+Epoch 1: MSE=1.140152, Max Error=2.421313
+Epoch 2: MSE=0.749933, Max Error=1.974850
+Epoch 3: MSE=0.452004, Max Error=1.582120
+Epoch 4: MSE=0.302229, Max Error=1.266716
+Epoch 5: MSE=0.185169, Max Error=1.068640
+Epoch 6: MSE=0.113481, Max Error=0.805781
+Epoch 7: MSE=0.066061, Max Error=0.639302
+Epoch 8: MSE=0.049246, Max Error=0.599586
+Epoch 9: MSE=0.027286, Max Error=0.430644
+Epoch 10: MSE=0.013088, Max Error=0.245919
+Epoch 11: MSE=0.013636, Max Error=0.333229
+Epoch 12: MSE=0.006651, Max Error=0.233722
+Epoch 13: MSE=0.005355, Max Error=0.199517
+Epoch 14: MSE=0.004207, Max Error=0.174302
+Epoch 15: MSE=0.000727, Max Error=0.075769
+Epoch 16: MSE=0.000610, Max Error=0.062342
+Epoch 17: MSE=0.000916, Max Error=0.096417
+Epoch 18: MSE=0.001161, Max Error=0.095466
+Epoch 19: MSE=0.000186, Max Error=0.033365
+Epoch 20: MSE=0.002085, Max Error=0.094610
+Epoch 21: MSE=0.000447, Max Error=0.044940
+Epoch 22: MSE=0.000394, Max Error=0.034353
+Epoch 23: MSE=0.000467, Max Error=0.035809
+Epoch 24: MSE=0.003690, Max Error=0.107735
+Epoch 25: MSE=0.002120, Max Error=0.081474
+Epoch 26: MSE=0.000749, Max Error=0.050969
+Epoch 27: MSE=0.001318, Max Error=0.051437
+Epoch 28: MSE=0.000721, Max Error=0.067812
+Epoch 29: MSE=0.001434, Max Error=0.088508
+Epoch 30: MSE=0.000524, Max Error=0.057218
+Epoch 31: MSE=0.000157, Max Error=0.029860
+Epoch 32: MSE=0.000528, Max Error=0.059344
+Epoch 33: MSE=0.000883, Max Error=0.072374
+Epoch 34: MSE=0.000352, Max Error=0.044708
+Epoch 35: MSE=0.000039, Max Error=0.010223
+Epoch 36: MSE=0.000662, Max Error=0.045255
+Epoch 37: MSE=0.000152, Max Error=0.022240
+Epoch 38: MSE=0.000306, Max Error=0.035478
+Epoch 39: MSE=0.000197, Max Error=0.021388

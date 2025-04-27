@@ -9,30 +9,31 @@
 ║   - Setup version control (e.g., Git)              ║ Done      ║ N/A  ║ Done          ║
 ╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
 ║ **Core Functionality**                             ║           ║      ║               ║
-║   - Define base `Function` interface/abstract class║ Pending   ║ Unit ║ Docstrings    ║
-║   - Implement example target functions             ║ Pending   ║ Unit ║ Docstrings    ║
-║   - Implement data loading/sampling mechanism      ║ Pending   ║ Unit ║ Docstrings    ║
-║   - Define base Algorithm interface/abstract class ║ Pending   ║ Unit ║ Docstrings    ║
-║   - Implement Reinforcement Learning algorithms    ║ Pending   ║ Unit ║ Docstrings    ║
-║   - Implement Evolutionary algorithms              ║ Pending   ║ Unit ║ Docstrings    ║
-║   - Implement Monte Carlo algorithms               ║ Pending   ║ Unit ║ Docstrings    ║
+║   - Define base `Function` interface/abstract class║ Done      ║ Unit ║ Docstrings    ║
+║   - Implement example target functions             ║ Done      ║ Unit ║ Docstrings    ║
+║   - Implement data loading/sampling mechanism      ║ Done      ║ Unit ║ Docstrings    ║
+║   - Define base Algorithm interface/abstract class ║ Done      ║ Unit*║ Docstrings    ║
+║   - Implement Reinforcement Learning algorithms    ║ In Progress║ Unit ║ Docstrings    ║
+║   - Implement Evolutionary algorithms              ║ In Progress║ Unit ║ Docstrings    ║
+║   - Implement k-Nearest Neighbors algorithm        ║ In Progress║ Unit ║ Docstrings    ║
 ║   - Implement other approximation algorithms       ║ Pending   ║ Unit ║ Docstrings    ║
-║   - Define evaluation metrics module               ║ Pending   ║ Unit ║ Docstrings    ║
-║   - Implement core training/approximation loop     ║ Pending   ║ Int. ║ Docstrings    ║
+║   - Define evaluation metrics module               ║ Done      ║ Unit ║ Docstrings    ║
+║   - Implement core training/approximation loop     ║ Done      ║ Int. ║ Docstrings    ║
 ╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
 ║ **Visualization**                                  ║           ║      ║               ║
-║   - Define visualization interface/base class      ║ Pending   ║ N/A  ║ Docstrings    ║
-║   - Implement plotting for function approximation  ║ Pending   ║ Man. ║ Docstrings    ║
-║   - Implement plotting for algorithm progress      ║ Pending   ║ Man. ║ Docstrings    ║
-║   - Implement interactive dashboard (optional)     ║ Pending   ║ Man. ║ Docstrings    ║
+║   - Define visualization interface/base class      ║ Done      ║ Unit ║ Docstrings    ║
+║   - Implement plotting for function approximation  ║ Done      ║ Unit ║ Docstrings    ║
+║   - Implement plotting for algorithm progress      ║ Done      ║ Unit ║ Docstrings    ║
+║   - Implement interactive dashboard (optional)     ║ Done      ║ Man. ║ Docstrings    ║
+║   - Implement training animation/GIF generator     ║ Done      ║ Man. ║ Docstrings    ║
 ╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
 ║ **Configuration & CLI**                            ║           ║      ║               ║
 ║   - Implement configuration loading (e.g., YAML)   ║ Pending   ║ Unit ║ Docstrings    ║
 ║   - Implement Command Line Interface (CLI)         ║ Pending   ║ Int. ║ Docstrings    ║
 ╠════════════════════════════════════════════════════╬═══════════╬══════╬═══════════════╣
 ║ **Testing & Documentation**                        ║           ║      ║               ║
-║   - Setup testing framework (e.g., pytest)         ║ Pending   ║ N/A  ║ N/A           ║
-║   - Write unit tests for core components           ║ Pending   ║ N/A  ║ N/A           ║
+║   - Setup testing framework (e.g., pytest)         ║ Done      ║ N/A  ║ N/A           ║
+║   - Write unit tests for core components           ║ In Progress║ N/A  ║ N/A           ║
 ║   - Write integration tests                        ║ Pending   ║ N/A  ║ N/A           ║
 ║   - Generate project documentation (e.g., Sphinx)  ║ Pending   ║ N/A  ║ N/A           ║
 ║   - Write README.md                                ║ Pending   ║ N/A  ║ N/A           ║
@@ -40,7 +41,7 @@
 
 **Legend:**
 - Status: Pending, In Progress, Done
-- Test: N/A, Unit, Int. (Integration), Man. (Manual)
+- Test: N/A, Unit, Int. (Integration), Man. (Manual) (*=Tests pending)
 - Documentation: Pending, Docstrings, Readme, Sphinx
 
 **Guiding Principles:**

@@ -1,0 +1,37 @@
+Training Data Summary
+====================
+
+Function: RosenbrockFunction
+Input Dimension: 2
+Output Dimension: 1
+
+Epochs: 20
+Starting MSE: 500588.404560
+Final MSE: 0.001704
+MSE Improvement: 500588.402855
+
+Validation Results
+-----------------
+
+Detailed MSE Progression
+----------------------
+Epoch 0: MSE=500588.404560, Max Error=2850.165742
+Epoch 2: MSE=205738.832736, Max Error=1827.008898
+Epoch 4: MSE=83641.840655, Max Error=1164.820074
+Epoch 6: MSE=34382.737134, Max Error=746.794636
+Epoch 8: MSE=14181.432757, Max Error=479.593343
+Epoch 10: MSE=5901.562257, Max Error=309.379816
+Epoch 12: MSE=2427.391235, Max Error=198.411825
+Epoch 14: MSE=992.563643, Max Error=126.874778
+Epoch 16: MSE=395.202533, Max Error=80.050155
+Epoch 18: MSE=149.987232, Max Error=49.308369
+Epoch 20: MSE=62.509252, Max Error=31.837211
+Epoch 22: MSE=28.460046, Max Error=21.539963
+Epoch 24: MSE=11.074266, Max Error=13.479781
+Epoch 26: MSE=4.021065, Max Error=8.131036
+Epoch 28: MSE=1.274422, Max Error=4.579526
+Epoch 30: MSE=0.329517, Max Error=2.313080
+Epoch 32: MSE=0.054733, Max Error=0.942534
+Epoch 34: MSE=0.015327, Max Error=0.513921
+Epoch 36: MSE=0.006658, Max Error=0.366052
+Epoch 38: MSE=0.001704, Max Error=0.136570
